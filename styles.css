@@ -184,3 +184,18 @@ tr:nth-child(even){
 #box{
     border-radius: 20px;
 }
+
+#submit{
+  background-color: lightblue;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+}
+
+#submit:hover{
+  background-color: orange;
+  color: black;
+  transition: 2s;
+}
