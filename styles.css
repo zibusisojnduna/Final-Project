@@ -177,3 +177,10 @@ tr:nth-child(even){
   width: max-content;
 }
 
+#main1{
+    text-align: center;
+}
+
+#box{
+    border-radius: 20px;
+}
