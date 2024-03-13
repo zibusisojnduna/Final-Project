@@ -341,3 +341,16 @@ color: #f2f2f2;
 .donaters{
   display: flex;
 }
+
+#programmes{
+  text-align: center;
+}
+
+#schoolHistory{
+  text-align: center;
+}
+
+#example{
+  width: 800px;
+}
+
