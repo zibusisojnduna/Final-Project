@@ -308,7 +308,7 @@ color: #f2f2f2;
 
 
 #submit{
-  background-color: lightblue;
+  background-color: #078bf5;
   color: white;
   border-radius: 20px;
   cursor: pointer;
@@ -317,7 +317,7 @@ color: #f2f2f2;
 }
 
 #submit:hover{
-  background-color: orange;
+  background-color: #ffff0f;
   color: black;
   transition: 2s;
 }
@@ -354,3 +354,18 @@ color: #f2f2f2;
   width: 800px;
 }
 
+#logo{
+  height: 200px;
+}
+
+#pddd{
+color: white;
+}
+
+#gb{
+  color: white;
+}
+
+#people{
+  color: white;
+}
