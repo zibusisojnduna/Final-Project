@@ -293,7 +293,7 @@ tr:nth-child(even){
     text-align: center;
 }
 
-#box{
+.box{
     border-radius: 20px;
 }
 .container{
@@ -414,7 +414,7 @@ to{
   transition: 0.3s; 
 }
 .button button:hover{
-background:lightblue;
+background:#078bf5;
 color: #f2f2f2;
 }
 
@@ -442,12 +442,11 @@ color: #f2f2f2;
   align-items: center;
   justify-content: center;
   margin-left: 900px;
-  margin-top: 1px;
 }
 
 .contact{
   margin-left: -39%;
-  margin-top: -37%;
+  margin-top: -30%;
 }
 
 
@@ -481,4 +480,32 @@ color: white;
 
 #people{
   color: white;
+}
+
+#overlay2{
+  position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#078af556;
+    color:white;
+}
+
+#ok{
+  height: max-content;
+  width: max-content;
+  background-color: #078bf5;
+  cursor: pointer;
+  color: white;
+}
+
+#ok:hover{
+  background-color: #ffff0f;
+  color: black;
+  cursor: pointer;
+  transition: 2s;
 }

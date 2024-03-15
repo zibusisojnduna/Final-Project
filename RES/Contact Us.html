@@ -34,7 +34,7 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13869.98446371498!2d30.3540052!3d-29.6473748!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6bd30916269f3%3A0x44fe6382070879e3!2sEkukhanyeni%20Special%20School!5e0!3m2!1sen!2sza!4v1709890248544!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
     </div>
     <div class="contact">
-    <h1>Contact Us!</h1>
+    <h1></h1>
     <h3>Address: Mdoni Road, Edendale, Pietermariztburg, KwaZulu Natal</h3>
 
     <h3>Tel: +27 33 398 1325</h3>
@@ -47,7 +47,7 @@
 
     
         <label for="name">Your Name</label><br>
-        <input type="text" id="box" placeholder="Your First and Last Name">
+        <input type="text" class="box" placeholder="Your First and Last Name" id="name">
         <br>
         <br>
 
@@ -55,25 +55,41 @@
 
 
         <label for="email">Your Email Address</label><br>
-        <input type="email" id="box" placeholder="e.g. myname@gmail.com">
+        <input type="email" class="box" placeholder="e.g. myname@gmail.com" id="email"> 
         <br>
         <br>
 
         <label for="number">Your Phone Number</label><br>
-        <input type="tel" id="box" placeholder="e.g. 083 566 2294">
+        <input type="tel" class="box" placeholder="e.g. 083 566 2294" id="number">
         <br>
         <br>
 
         <label for="inquires">Ask a Question</label><br>
-        <textarea id="box" placeholder="How can we help you?" rows="4" cols="50"></textarea>
+        <textarea class="box" placeholder="How can we help you?" rows="4" cols="50"></textarea>
         <br>
         <br>
         
-        <button id="submit">Submit</button>
+        <button id="submit" onclick="Submit()">Submit</button>
+
+        <div id="overlay2">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h2>We appriciate your attempt to get in contact with us,<br> be on the look out for an email or a phone call as<br>we may attempt to contact you soon.</h2>
+          <br>
+          <br>
+          <button id="ok" onclick="OK()">Back to page</button>
+        </div>
 
 
     
 </div>
 </main>
 
+<script src="../emailapi.js"></script>
 </body>
